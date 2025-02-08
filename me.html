@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ME</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    <header>
+        <div class="subscribe">
+            <form>
+                <input type="email" placeholder="Enter email">
+                <button type="submit">Subscribe to my blog</button>
+            </form>
+        </div>
+     </header>
+
+    <div class="menu" onClick="openArticles()">ALL ARTICLES</div>  
+    <div class="menu" onClick="openReviews()">REVIEWS</div>
+    <div class="menu" onClick="openContact()">CONTACT</div>
+    <div class="menu" onClick="openMe()">ME</div>
+
+    <section id="despre-mine">
+        <h2>Hai sa ne cunoastem!</h2>
+        <P><strong>Gluma zilei:</strong> ,,De ce calculatorul meu nu merge la sala? Pentru ca deja are prea multe programe!"</P>
+        <p>Salut! Ma numesc Brigitta si am 17 ani. Sunt o persoana mai inchisa de fel,pasionata de sport si arta!</p>
+
+        <h3>Ce ma defineste?</h3>
+        <ul>
+           <li>Imi place sa petrec timpul facand ceva productiv!</li>
+           <li>Imi doresc sa evoluez si sa devin o versiune mai buna a mea(si pun foarte multa presiune pe mine).</li>
+           <li>Imi place sa am cunostinta dezvoltata.</li>
+        </ul>
+
+        <h3>De ce am ales sa scriu despre mine?</h3>
+        <p>Am descis sa scriu asta deoarece vreau sa creez un spatiu in care sa pot exprima liber gandurile.</p>
+
+        <h3>Lucruri interesante despre mine:</h3>
+        <ul>
+            <li>Ma antrenez foarte mult pentru a ma multumi pe mine.</li> 
+            <li>Incerc sa ma dezvolt ata fizic ,cat si mental,Chiar daca uneori este foarte greu.</li>
+            <li>Incerc sa manc cat mai sanatos dar niciodata nu imi iese..</li>
+        </ul>
+
+
+        <h3>Experienta mea in BREAKING BARRIERS</h3>
+        <ul>
+           <li>Experienta mea a fost una placuta,am invatat multe lucruri intr un timp scurt si am dat de oameni extraordinari!!</li>
+           <li>Este foarte important sa sustinem fete pe partea de tehnologie,fetele trebuie sa fie incurajate sa urmeze cariere in tehnologie,deoarece diversitatea adusa de diferite perspective este esentiala pentru inovatie.</li>
+        </ul>
+         <form id="form-feedback">
+            <label for="nume">Numele tau:</label><br>
+            <input type="text" id="nume" name="nume" required><br><br>
+
+            <label for="mesaj">Spune-mi ceva despre tine:</label><br>
+            <textarea id="mesaj" name="mesaj" rows="4" required></textarea><br><br>
+
+            <button type="submit">Trimite</button>
+         </form>
+
+        <P id="raspuns"></P>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
